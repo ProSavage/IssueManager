@@ -1,15 +1,15 @@
 import React from "react";
 import "./style.css"
-import Logo from "./illyriasupport-wordmark.svg"
-import Factions from "./factions.svg";
-import FactionsX from "./factions_x.svg"
-import SkyBlocks from "./skyblocks.svg"
-import Collectors from "./Collectors.svg";
-import OutPosts from "./outpost.svg";
-import FTop from "./Ftop.svg";
-import Core from "./Core.svg";
-import Discord from "./Discord.svg";
-import Obsidian from "./Obsidian.svg";
+import Logo from "./Images/illyriasupport-wordmark.svg"
+import Factions from "./Images/factions.svg";
+import FactionsX from "./Images/factions_x.svg"
+import SkyBlocks from "./Images/skyblocks.svg"
+import Collectors from "./Images/Collectors.svg";
+import OutPosts from "./Images/outpost.svg";
+import FTop from "./Images/Ftop.svg";
+import Core from "./Images/Core.svg";
+import Discord from "./Images/Discord.svg";
+import Obsidian from "./Images/Obsidian.svg";
 let FrontPage = () => {
     return (
         <div>
@@ -23,8 +23,8 @@ let FrontPage = () => {
                         <p>FACTIONS</p>
                     </div>
                     <div className="items">
-                        <img src={SkyBlocks} alt="SkyBlocks"/>
-                        <p>SKYBLOCKS</p>
+                        <img src={SkyBlocks} alt="SkyBlock"/>
+                        <p>SKYBLOCK</p>
                     </div>
                     <div className="items">
                         <img src={FactionsX} alt="FactionsX"/>
