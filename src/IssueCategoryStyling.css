@@ -22,7 +22,6 @@
     left: 0;
 }
 .boxIssue {
-    padding-left: 23%;
     display: flex;
     max-width: 1200px;
     max-height: 350px;
@@ -54,4 +53,9 @@
     padding-bottom: 20px;
     font-weight: 100;
     font-size: 30px;
+}
+
+.boxIssueWrapper {
+    display: flex;
+    justify-content: center;
 }

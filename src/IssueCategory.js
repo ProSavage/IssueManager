@@ -11,7 +11,12 @@ let IssueCategory = () => {
             <img className="logo" src={Logo} alt = "Logo"/>
             <h1 className="titleIssue">Great, now how can we help you?</h1>
             <h1 className="subTitleIssue">Pick the category that best matches your needs</h1>
-            <div className={"boxIssue"}>{map} </div>
+            <div className={"boxIssueWrapper"}>
+                <div className={"boxIssue"}>
+                    {map}
+                </div>
+            </div>
+
             <a href={"#"}><img className="fixedIssue" src={Button}/></a>
         </div>
     )
