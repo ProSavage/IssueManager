@@ -9,11 +9,11 @@ import {FrontPageComponents3} from "./FrontPageComponents";
 
 let FrontPage = () => {
     //Factions, SkyBlock, FactionX
-    const map = FrontPageComponents.map(info => <Props key = {info.id} image = {info.image} alt = {info.alt} text = {info.text}/>);
+    const freePlugins = FrontPageComponents.map(info => <Props key = {info.id} image = {info.image} alt = {info.alt} text = {info.text}/>);
     //Collectors, Outposts, Ftop
-    const map2 = FrontPageComponents2.map(info => <Props key = {info.id} image = {info.image} alt = {info.alt} text = {info.text}/>);
+    const premiumRow1 = FrontPageComponents2.map(info => <Props key = {info.id} image = {info.image} alt = {info.alt} text = {info.text}/>);
     //Core, Discord, Obsidian
-    const map3 = FrontPageComponents3.map(info => <Props key = {info.id} image = {info.image} alt = {info.alt} text = {info.text}/>);
+    const premiumRow2 = FrontPageComponents3.map(info => <Props key = {info.id} image = {info.image} alt = {info.alt} text = {info.text}/>);
     return (
         <div>
             <img className="logo" src={Logo} alt="IllyriaSupport"/>
@@ -24,17 +24,17 @@ let FrontPage = () => {
                 this process for each, or <a href="#" style={{color: "#C679E3"}}>contact us.</a></p>
 
                 <div className="box">
-                    {map}
+                    {freePlugins}
                 </div>
 
             <hr></hr>
 
                 <div className="box">
-                    {map2}
+                    {premiumRow1}
                 </div>
 
                 <div className="box">
-                    {map3}
+                    {premiumRow2}
                 </div>
 
         </div>
