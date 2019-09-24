@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,400,700&display=swap');
-.title{
+.titleIssue{
     text-align: center;
-    padding-top: 0px;
+    padding-top: 30px;
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 0;
+    margin-bottom: 15px;
 }
-.subTitle{
+.subTitleIssue{
     text-align: center;
     font-size: 15px;
     font-weight: normal;
@@ -14,8 +15,43 @@
     margin-bottom: 20px;
 }
 
-.logo {
-    width: 168px;
-    max-height: 55px;
-    padding: 0px 20px;
+.fixedIssue {
+    width: 220px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.boxIssue {
+    padding-left: 22.5%;
+    display: flex;
+    max-width: 1200px;
+    max-height: 350px;
+}
+.itemsIssue {
+    text-align: center;
+    height: 180px;
+    width: 160px;
+    float: left;
+    border: 10px solid transparent;
+    border-image: url(./Images/borderTest2.png) 25% round;
+}
+.itemsIssue:first-child {
+    margin-right: 100px;
+}
+
+.itemsIssue:last-child {
+    margin-left: 100px;
+}
+.itemsIssue img {
+    margin-top: 40px;
+    max-width: 45px;
+    max-height: 45px;
+    margin-bottom: 0;
+}
+.itemsIssue p {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 30px;
 }
