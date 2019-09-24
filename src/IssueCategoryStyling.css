@@ -22,7 +22,7 @@
     left: 0;
 }
 .boxIssue {
-    padding-left: 22.5%;
+    padding-left: 23%;
     display: flex;
     max-width: 1200px;
     max-height: 350px;
@@ -44,8 +44,8 @@
 }
 .itemsIssue img {
     margin-top: 40px;
-    max-width: 45px;
-    max-height: 45px;
+    max-width: 60px;
+    max-height: 60px;
     margin-bottom: 0;
 }
 .itemsIssue p {
